@@ -7,7 +7,7 @@ real = float(input('Digite o valor (em reais) a ser convertido: R$ '))
 print(bordas)
 print('USD -> Para converter para dólar')
 print('EUR -> Para converter para euro')
-print('JPY -> Para converter para decâmetro')
+print('JPY -> Para converter para iene')
 print(bordas)
 
 # Valores não atualizados
