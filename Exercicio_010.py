@@ -3,11 +3,20 @@ print(bordas)
 print('{:^35}'.format('CONVERSOR DE MOEDAS'))
 print(bordas)
 print()
-real = float(input('Digite o valor (em reais) a ser convertido: R$ '))
+
+real = ''
+
+while type(real) != float:
+    try:
+        real = float(input('Digite o valor (em reais) a ser convertido: R$ '))
+    except:
+        print('Por favor digite um valor válido!')
+
+
 print(bordas)
 print('USD -> Para converter para dólar')
 print('EUR -> Para converter para euro')
-print('JPY -> Para converter para iene')
+print('JPY -> Para converter para decâmetro')
 print(bordas)
 
 # Valores não atualizados
